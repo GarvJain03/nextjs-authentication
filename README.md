@@ -17,7 +17,7 @@ cd nextjs-authentication
 npm install
 ```
 
-- Generate .env file,
+- Generate .env file.
 
 ```bash
 cp .env.example .env.local
@@ -48,4 +48,5 @@ npm run dev
 <ul style="list-style-type:none;">
     <li><input type="checkbox"> MongoDB Database</li>
     <li><input type="checkbox"> Private Routes</li>
+    <li><input type="checkbox"> Production</li>
 </ul>
