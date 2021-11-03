@@ -25,11 +25,15 @@ cp .env.example .env.local
 
 ## Environment Variables
 
-Naviagte to the Google Cloud Console and create your oauth credentials.
+Naviagte to the Google Cloud Console and GitHub developer settings to create your oauth credentials.
 
 `GOOGLE_CLIENT_ID`
 
 `GOOGLE_CLIENT_SECRET`
+
+`GITHUB_CLIENT_ID`
+
+`GITHUB_CLIENT_SECRET`
 
 ## Start Server
 
@@ -42,7 +46,6 @@ npm run dev
 ## TODO
 
 <ul style="list-style-type:none;">
-    <li><input type="checkbox"> GitHub OAuth</li>
     <li><input type="checkbox"> MongoDB Database</li>
     <li><input type="checkbox"> Private Routes</li>
 </ul>
